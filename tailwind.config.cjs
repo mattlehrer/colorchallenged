@@ -2,10 +2,14 @@ const config = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 
 	theme: {
-		extend: {}
+		extend: {
+			gridTemplateRows: {
+				layout: 'auto 1fr auto',
+			},
+		},
 	},
 
-	plugins: []
+	plugins: [],
 };
 
 module.exports = config;
